@@ -4,9 +4,10 @@ import ReactDOM from "react-dom";
 import "./styles.css";
 
 const App = () => {
-  const [item, setItem] = useState(1) 
+  const [item, setItem] = useState(1)
+  //useState = [item,setItem] 
   //useState returns an array
-  //item is the first element. setItem is the modifier
+  //item is the first element. setItem is the state modifier
   const incrementItem = () => setItem(item + 1)
   const decrementItem = () => setItem(item - 1)
   return (
